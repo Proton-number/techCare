@@ -20,8 +20,8 @@ function Top() {
         padding: 1,
         borderRadius: "75px",
         color: "black",
-          backgroundColor: "white",
-        
+        backgroundColor: "white",
+        marginTop: "16px",
       }}
       elevation={2}
     >
@@ -49,8 +49,8 @@ function Top() {
               alignItems: "center",
               cursor: "pointer",
               backgroundColor: "#01F0D0",
-                padding: 0.8,
-              borderRadius:'41px'
+              padding: 0.8,
+              borderRadius: "41px",
             }}
             spacing={2}
           >

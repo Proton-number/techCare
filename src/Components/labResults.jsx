@@ -23,7 +23,15 @@ function LabResults() {
               <Stack
                 key={index}
                 direction="row"
-                sx={{ alignItems: "center", justifyContent: "space-between" }}
+                sx={{
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                  padding: '8px',
+                  backgroundColor:
+                    test.name === "CT Scans"
+                      ? "hsl(210, 12%, 97%)"
+                      : "transparent",
+                }}
               >
                 <Typography variant="subtitle2">{test.name}</Typography>
                 <Box
